@@ -25,7 +25,7 @@ msgstr "%d liste(s) de diffusion trouvée(s)."
 
 #, python-format
 msgid "%d in total."
-msgstr ""
+msgstr "%d au total."
 
 #, python-format
 msgid "%d mail alias(es) found."
@@ -33,11 +33,11 @@ msgstr "%d alias de courriel(s) trouvé(e)."
 
 #, python-format
 msgid "%d mailing list(s) found."
-msgstr ""
+msgstr "%d liste(s) de diffusions trouvée(s)"
 
 #, python-format
 msgid "%d of %d in total."
-msgstr ""
+msgstr "%d sur %d au total."
 
 #, python-format
 msgid "%d user(s) found."
@@ -45,11 +45,11 @@ msgstr "%d utilisateur(s) trouvé(s)."
 
 #, python-format
 msgid "%d users sent emails without secure connection in last %d hours."
-msgstr ""
+msgstr "%d utilisateurs ont envoyé des emails sans connexion sécurisée dans les %d dernières heures."
 
 #, python-format
 msgid "%s account(s) exist."
-msgstr "%s compte(s) existant."
+msgstr "%s compte(s) existent."
 
 #, python-format
 msgid "%s days, %s hours, %s minutes."
@@ -61,10 +61,10 @@ msgstr ""
 
 #, python-format
 msgid "(%d%% full, %d messages, %s.)"
-msgstr ""
+msgstr "%d%% plein"
 
 msgid "(Mailbox is empty.)"
-msgstr ""
+msgstr "(La boite de courriels est vide)"
 
 msgid "1 Day"
 msgstr "1 Jour"
@@ -88,7 +88,7 @@ msgid "Accepting mails sent to this account on mail server"
 msgstr ""
 
 msgid "Access control"
-msgstr ""
+msgstr "Contrôle d'accès"
 
 #, python-format
 msgid ""
@@ -109,16 +109,16 @@ msgstr "Le compte n'existe pas."
 msgid ""
 "Account does not have specific spam policy yet, server-wide policy will "
 "be applied."
-msgstr ""
+msgstr "Le compte n'a pas encore de politique antispam spécifique, le politique générale du serveur sera appliquée."
 
 msgid "Account is active."
-msgstr ""
+msgstr "Compte actif"
 
 msgid "Account is disabled."
 msgstr "Compte désactivé."
 
 msgid "Account is domain admin"
-msgstr "Compte désactivé."
+msgstr "Le compte est un administrateur du domaine."
 
 msgid "Account is global admin"
 msgstr "Le compte est un administrateur global."
@@ -136,7 +136,7 @@ msgid "Active"
 msgstr "Actif"
 
 msgid "Activities"
-msgstr ""
+msgstr "Activités"
 
 msgid "Add"
 msgstr "Ajouter"
@@ -157,19 +157,19 @@ msgid "Add mail alias"
 msgstr "Créer un alias de messagerie"
 
 msgid "Add mail alias under domain"
-msgstr "Ajouter un alias de messagerie courriel pour le domaine : %s"
+msgstr "Ajouter un alias de messagerie courriel pour le domaine"
 
 msgid "Add mail user"
 msgstr "Ajouter une liste de diffusion"
 
 msgid "Add mail user under domain"
-msgstr "Ajouter un utilisateur au domaine : %s."
+msgstr "Ajouter un utilisateur au domaine"
 
 msgid "Add mailing list"
 msgstr "Ajouter une liste de diffusion"
 
 msgid "Add mailing list under domain"
-msgstr ""
+msgstr "Ajouter une liste de diffusion dans le domaine"
 
 msgid "Add new members"
 msgstr "Ajouter de nouveaux membres"
@@ -181,13 +181,13 @@ msgid "Add one"
 msgstr "Ajouter un"
 
 msgid "Add one more?"
-msgstr "ajouter un de plus?"
+msgstr "ajouter un de plus ?"
 
 msgid "Add whitelist and blacklist"
-msgstr "Ajouter à la liste blanche"
+msgstr "Ajouter à la liste blanche ou noire"
 
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 msgid "Address format"
 msgstr "Adresse de l'expéditeur"
@@ -196,7 +196,7 @@ msgid "Admin"
 msgstr "Administrateur"
 
 msgid "Admin Log"
-msgstr "Log Administrateurs"
+msgstr "Journaux Administrateurs"
 
 msgid "Admin created."
 msgstr "Compte administrateur créé."
@@ -219,19 +219,19 @@ msgstr "Alias"
 
 #, python-format
 msgid "Alias addresses must end with domain name: %s"
-msgstr ""
+msgstr "Les adresse d'alias doivent se terminer avec le nom de domaine: %s"
 
 msgid "Alias addresses:"
-msgstr ""
+msgstr "Adresses d'alias"
 
 msgid "Alias domains"
-msgstr "Alias de Domaine"
+msgstr "Alias de Domaines"
 
 msgid "Alias domains:"
-msgstr ""
+msgstr "Alias de Domaines:"
 
 msgid "Alias email addresses"
-msgstr ""
+msgstr "Alias de courriels"
 
 msgid "Aliases"
 msgstr "Alias"
@@ -241,7 +241,7 @@ msgid "Aliases under domain: %s."
 msgstr "Alias pour le domaine : %s."
 
 msgid "All SMTP Sessions"
-msgstr ""
+msgstr "Toutes les sessions SMTP"
 
 msgid "All accounts"
 msgstr "Tous les comptes"
@@ -250,7 +250,7 @@ msgid "All admins"
 msgstr "Tous les administrateurs"
 
 msgid "All admins can only login from specified IP addresses or networks"
-msgstr ""
+msgstr "Les administrateurs ne peuvent se connecter que depuis les adresses IP ou réseaux spécifiés"
 
 msgid "All domains"
 msgstr "Tous les domaines"
@@ -264,7 +264,7 @@ msgid "All domains under your control."
 msgstr "Tous les domaines sous votre contrôle."
 
 msgid "All emails"
-msgstr ""
+msgstr "Tous les courriels"
 
 msgid "All sub-domains"
 msgstr "Tous les sous-domaines"
@@ -279,7 +279,7 @@ msgid "Allow this admin to mark other mail user as domain admin"
 msgstr ""
 
 msgid "Almost finished."
-msgstr ""
+msgstr "Bientôt terminé"
 
 #, python-format
 msgid "Already exceed max number of account limit (%d)."
@@ -403,19 +403,19 @@ msgid "Can not be shorter than"
 msgstr ""
 
 msgid "Catch-all"
-msgstr "Fourre-tout"
+msgstr "Attrape-tout"
 
 msgid "Catch-all Addresses"
-msgstr "Adresse fourre-tout"
+msgstr "Adresse Attrape-tout"
 
 msgid "Catch-all address may receive many spam emails."
-msgstr "L'adresse fourre-tout peut recevoir beaucoup de pourriels."
+msgstr "L'adresse attrape-tout peut recevoir beaucoup de pourriels."
 
 msgid "Change email address"
 msgstr "L'adresse de courriel invalide."
 
 msgid "Change email address to"
-msgstr "Une adresse de courriel par ligne."
+msgstr "Change une adresse de courriel vers"
 
 msgid "Change password"
 msgstr "Nouveau mot de passe"
@@ -427,7 +427,7 @@ msgid "Choose activity type"
 msgstr "Choisissez le type d'activité"
 
 msgid "Clean"
-msgstr ""
+msgstr "Nettoyer"
 
 msgid "Client Address"
 msgstr ""
@@ -436,10 +436,10 @@ msgid "Client Hostname"
 msgstr ""
 
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 msgid "Company/Organization Name"
-msgstr "Compagnie / Organisation"
+msgstr "Société/Organisation"
 
 msgid ""
 "Confirm email has been sent to new members. Members will appear below "
@@ -456,7 +456,7 @@ msgid "Content of disclaimer will be appended to outgoing emails."
 msgstr "Le contenu du renonciation sera ajouté aux courriels sortants."
 
 msgid "Country"
-msgstr ""
+msgstr "Pays"
 
 msgid ""
 "Create a TXT type DNS record of the domain name, use the verify code as "
@@ -505,7 +505,7 @@ msgid "Date"
 msgstr "Date"
 
 msgid "Days"
-msgstr ""
+msgstr "Jours"
 
 msgid "Default bcc address for incoming emails for new user"
 msgstr ""
@@ -545,7 +545,7 @@ msgid "Delete all in database"
 msgstr "Tout effacer dans la base de données"
 
 msgid "Delete and archive"
-msgstr ""
+msgstr "Supprimer et archiver"
 
 msgid "Delete mailboxes"
 msgstr ""
